@@ -8,6 +8,8 @@ import coloredlogs
 from datetime import datetime
 from datetime import timedelta
 
+__author__ = "Oleksandr Khoroshevskyi"
+
 _LOGGER = logmuse.init_logger("pepannot")
 coloredlogs.install(
     logger=_LOGGER,
