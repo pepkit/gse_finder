@@ -1,11 +1,11 @@
-# geo_finder
+# gse_finder
 ___
 
-is a python package that provides functions to find and retrieve a list of [GEO](https://www.ncbi.nlm.nih.gov/geo/) accession number (GSE) by using NCBI searching tool.
+is a python package that provides functions to find and retrieve a list of GSE ([GEO](https://www.ncbi.nlm.nih.gov/geo/) accession number) by using NCBI searching tool.
 
 
 ### The main features of the package are:
-- Find GEO accession numbers (GEO accession number) of the project that were uploaded or updated in certain period of time.
+- Find GEO accession numbers (GSE) of the project that were uploaded or updated in certain period of time.
 - Use the same filter query as [GEO DataSets Advanced Search Builder](https://www.ncbi.nlm.nih.gov/gds/advanced) is using
 - Save list of the GSEs to file (This file with geo can be used later in **[geofetch](http://geofetch.databio.org/en/latest/)**)
 - Fast execution time

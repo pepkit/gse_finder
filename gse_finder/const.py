@@ -6,8 +6,6 @@ ETOOLS_GEO_GSE_BASE = f'{ETOOLS_GEO_BASE}&term=GSE[ETYP]'
 
 ETOOLS_ENDING = '&retmax={retmax}&usehistory=y'
 
-ETOOLS_GEO_GSE_GET_ALL = ETOOLS_GEO_GSE_BASE
-
 TODAY_DATE = '3000'
 
 DATE_FILTER = '+AND+("{start_date}"[Publication%20Date]%20:%20"{end_date}"[Publication%20Date])'
