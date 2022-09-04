@@ -174,11 +174,3 @@ class Finder:
             for item in gse_list:
                 fp.write("%s\n" % item)
             _LOGGER.info("File has been saved!")
-
-
-# Generator().get_gse_by_date('2022/08/01','2022/09/01')
-#fff = Finder().get_gse_by_day_count(1)
-
-# fff = Finder("bed+OR+narrowpeak").get_gse_all()
-fff = Finder("((bed) OR narrow peak) AND Homo sapiens[Organism]").get_gse_by_day_count(10)
-Finder().generate_file("new_gse.txt", fff)
