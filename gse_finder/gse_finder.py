@@ -1,4 +1,4 @@
-from const import *
+from .const import *
 import requests
 import xmltodict
 import re
