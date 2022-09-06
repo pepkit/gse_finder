@@ -144,6 +144,8 @@ class Finder:
         :param filters: filter should look like here: https://www.ncbi.nlm.nih.gov/books/NBK3837/#EntrezHelp.Using_the_Advanced_Search_Pag
         :return: tuned filter string
         """
+        if filters == "" or filters is None:
+            return ""
         return f"+(AND+{filters})"
 
     def _compose_url(self, date_filter: str = None) -> str:
